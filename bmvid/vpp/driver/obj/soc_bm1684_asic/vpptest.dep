@@ -1,0 +1,2 @@
+obj/soc_bm1684_asic/vpptest.o: test/vpptest.c \
+ /home/oem/bm_prebuilt_toolchains/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/stdc-predef.h

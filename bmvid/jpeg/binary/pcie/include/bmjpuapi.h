@@ -531,9 +531,6 @@ typedef struct
     int roiHeight;
     int roiOffsetX;
     int roiOffsetY;
-
-    int framebuffer_recycle;
-    size_t framebuffer_size;
 }
 BmJpuDecOpenParams;
 
@@ -973,7 +970,6 @@ typedef struct
      * and finish_output_buffer must be set.
      */
     BmJpuWriteOutputData write_output_data;
-    int bs_in_device;
 
     /* User supplied value that will be passed to the functions */
     void *output_buffer_context;
